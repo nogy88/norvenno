@@ -25,7 +25,7 @@ const HomeSection = () => {
 
         <CurrentTimeLineExp />
 
-        {/* <FavProjects />  todo */}  
+        <FavProjects />    
 
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 

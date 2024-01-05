@@ -21,7 +21,7 @@ const ProjectsSection = () => {
 
         </AnimationContainer>
 
-        {/* <SearchAllProjects /> */}
+        <SearchAllProjects />
 
       </div>
 
