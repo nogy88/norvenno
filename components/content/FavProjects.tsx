@@ -56,7 +56,7 @@ const Card = ({ image, title, category, appstore, link }: CardProps) => {
         <Text className={classes.category} size='xs'>
           {category}
         </Text>
-        <Title order={3} className={classes.title}>
+        <Title order={3} className={`p-2 backdrop-filter backdrop-blur-sm w-fit mx-auto ${classes.title}`}>
           {title}
         </Title>
       </div>
@@ -138,7 +138,7 @@ const FavProjects = () => {
         slideGap='xs'
         align='center'
         slidesToScroll={mobile ? 1 : 2}
-        withControls={false}
+        // withControls={false}
         style={{ width: '100%', cursor: 'grab' }}
         loop
       >
