@@ -79,7 +79,7 @@ const Card = ({ image, title, category, appstore, link }: CardProps) => {
 const favProjects = [
   {
     image:
-      'https://scontent.fuln6-1.fna.fbcdn.net/v/t39.30808-6/396733642_718788870278950_8389065410833042142_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=pphz54xX3McAX_w-LCO&_nc_oc=AQmEgOr7_kaPJ5TN4pO4byqKVcGjMHnqV6-SfSADC56XR-gbBIbgW4uRmqJz5CSg0qE&_nc_ht=scontent.fuln6-1.fna&oh=00_AfCz8mK546Lnb0vabCYGf-sCYZEZ5EFq5aGvxVNaw8rJ7A&oe=659C1901',
+      'https://i.ibb.co/7n5bBfJ/396733642-718788870278950-8389065410833042142-n.jpg',
     title: 'Zeely app',
     category: 'Flutter',
     appstore: 'https://apps.apple.com/mn/app/zeely-by-optimal/id1419637942',
