@@ -1,6 +1,6 @@
 ⚡My new portfolio using Next.js 13 + TypeScript, Tailwind CSS and Sanity CMS⚡
 
-I'm a passionate developer with +2 year of work experience in JavaScript/TypeScript, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 19 years old. I love what I do and I help others with what I can.
+I'm a passionate developer with +3 year of work experience in JavaScript/TypeScript, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 19 years old. I love what I do and I help others with what I can.
 
 I also use in web and mobile development Next.js, React.js, React Native and Flutter, to add I also have experience working in Backend with Express/Node and in the UX design part with Figma always implementing good practices in prototyping and coding, clean architecture, SOLID principles, pixel perfect and agile methodologies for example such as the SCRUM framework.
 

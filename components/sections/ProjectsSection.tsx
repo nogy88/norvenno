@@ -1,11 +1,10 @@
-import SearchAllProjects from '../content/SearchAllProjects';
-import AnimationContainer from '../utils/AnimationContainer';
-import SectionContainer from '../utils/SectionContainer';
-import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
+import { FunctionComponent } from 'react'
+import SearchAllProjects from '../content/SearchAllProjects'
+import AnimationContainer from '../utils/AnimationContainer'
+import SectionContainer from '../utils/SectionContainer'
+import TitleSectionPageContainer from '../utils/TitleSectionPageContainer'
 
-const myGithub = 'https://github.com/nogy88';
-
-const ProjectsSection = () => {
+const ProjectsSection: FunctionComponent = () => {
   return (
     <SectionContainer>
 
@@ -29,4 +28,4 @@ const ProjectsSection = () => {
   )
 }
 
-export default ProjectsSection;
+export default ProjectsSection

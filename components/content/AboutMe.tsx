@@ -1,6 +1,8 @@
-import AnimationContainer from '../utils/AnimationContainer';
+import { FunctionComponent } from 'react'
+import AnimationContainer from '../utils/AnimationContainer'
+import { workExperience } from '@/misc/constants'
 
-const AboutMe = () => {
+const AboutMe: FunctionComponent = () => {
   return (
     <AnimationContainer customClassName='w-full mb-16'>
 
@@ -9,12 +11,12 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-       I am a passionate developer with +2 years of work experience, specializing in JavaScript, ReactJS, Next.js and Flutter.
-      Always up for learning and growing to create awesome and complete solutions.
+        {`I am a passionate developer with +${workExperience} years of work experience, specializing in JavaScript, TS, ReactJS, Next.js and Flutter.
+      Always up for learning and growing to create awesome and complete solutions.`}
       </p>
 
     </AnimationContainer>
   )
 }
 
-export default AboutMe;
+export default AboutMe

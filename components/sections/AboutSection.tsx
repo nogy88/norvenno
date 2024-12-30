@@ -1,10 +1,11 @@
-import CurrentTimeLineExp from '../content/CurrentTimeLineExp';
-import AnimationContainer from '../utils/AnimationContainer';
-import SectionContainer from '../utils/SectionContainer';
-import ShowSkills from '../utils/ShowSkills';
-import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
-import ProcessWork from '../content/ProcessWork';
-import { skills } from '../utils/mySkills';
+import CurrentTimeLineExp from '../content/CurrentTimeLineExp'
+import AnimationContainer from '../utils/AnimationContainer'
+import SectionContainer from '../utils/SectionContainer'
+import ShowSkills from '../utils/ShowSkills'
+import TitleSectionPageContainer from '../utils/TitleSectionPageContainer'
+import ProcessWork from '../content/ProcessWork'
+import { skills } from '../utils/mySkills'
+import { workExperience } from '@/misc/constants'
 
 const AboutSection = () => {
   return (
@@ -17,7 +18,7 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate dev with +2 years of work experience in JavaScript/TypeScript and love learning new technologies since I discovered programming.
+            {`I am a passionate dev with +${workExperience} years of work experience in JavaScript/TypeScript and love learning new technologies since I discovered programming.`}
             {/* I am currently learning the way to be a DevOps specialist. */}
           </p>
 
@@ -78,7 +79,7 @@ const AboutSection = () => {
           {/* <p className='text-base text-gray-400'>
             I am also interested in learning other things besides programming such as 3D design with Blender and video editing with Davinci Resolve (these last two I would take as a hobby).
           </p> */}
-           <p className='text-base text-gray-400'>
+          <p className='text-base text-gray-400'>
             For now I am interested in learning other things besides programming such as 3D design with Blender and video editing.
           </p>
 
@@ -90,4 +91,4 @@ const AboutSection = () => {
   )
 }
 
-export default AboutSection;
+export default AboutSection

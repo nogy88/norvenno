@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
-import { useState } from 'react';
-import CardProject from './CardProject';
-import AnimationContainer from '../utils/AnimationContainer';
-import { CardProjectProps } from '@/types';
+import { FunctionComponent, useState } from 'react'
+import CardProject from './CardProject'
+import AnimationContainer from '../utils/AnimationContainer'
+import { CardProjectProps } from '@/types'
 
 const allProjectsInfo = [
   {
@@ -16,6 +16,14 @@ const allProjectsInfo = [
   },
   {
     id: '2',
+    title: 'Stora web',
+    des: 'Stora offers you a more reliable American and convenient shopping service through an improved platform with a wide selection of products from us and Chinese shopping sites. You can change your order at any time, using ground or air transportation options, as well as connecting an international payment card. Place the ordered goods in CU stores of +52 branches in Ulaanbaatar city. Choose a branch other than Storabox to pick up the ordered goods.',
+    category: 'web',
+    appstore: '',
+    link: 'https://www.stora.mn/'
+  },
+  {
+    id: '3',
     title: 'HabiDo app',
     des: 'Users can create habits, participate in challenges, see their progress, interact with psychological counseling chatbots, complete',
     category: 'flutter',
@@ -23,7 +31,15 @@ const allProjectsInfo = [
     link: 'https://habido.mn/'
   },
   {
-    id: '3',
+    id: '4',
+    title: 'Stora app',
+    des: 'Stora offers you a more reliable American and convenient shopping service through an improved platform with a wide selection of products from us and Chinese shopping sites. You can change your order at any time, using ground or air transportation options, as well as connecting an international payment card. Place the ordered goods in CU stores of +52 branches in Ulaanbaatar city. Choose a branch other than Storabox to pick up the ordered goods.',
+    category: 'flutter',
+    appstore: 'https://apps.apple.com/mx/app/stora/id6448969980?l=en-GB',
+    link: 'https://stora.page.link/app'
+  },
+  {
+    id: '5',
     title: 'MindMetrix',
     des: 'Mindmetrix is a research platform that provides products and research results for researchers who want to integrate the scientific method of psychology with people and psychological delivery.',
     category: 'next - tailwind - chakraui',
@@ -31,15 +47,15 @@ const allProjectsInfo = [
     link: 'https://demo.mindmetrix.mn/'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Dumdadu app',
     des: 'This mobile app caters to Mongolian users, facilitating direct connections with translators for effective communication. Additionally, users can conveniently book Chinese hotels, while also accessing information about local points of interest, enhancing their overall travel experience.',
     category: 'flutter',
     appstore: '',
     link: 'https://dumdadu.tanasoft.mn'
-  }, 
+  },
   {
-    id: '5',
+    id: '7',
     title: 'Dumdadu admin dashboard',
     des: 'Admin dashboard offers comprehensive control and insights, allowing efficient management of user interactions, translation services, and hotel reservations for a seamless and tailored experience.',
     category: 'next - nextui - tailwind',
@@ -47,18 +63,17 @@ const allProjectsInfo = [
     link: 'https://dumdadu.tanasoft.mn/'
   },
   {
-    id: '6',
+    id: '8',
     title: 'HabiDo admin dashboard',
     des: 'Admin dashboard empowers administrators to oversee user habit creation, challenge participation, progress tracking and more.',
     category: 'react - javascript - antd',
     appstore: '',
     link: 'https://ap.habido.mn/'
-  },
-];
+  }
+]
 
-const SearchAllProjects = () => {
-
-  const [projectSearch, setProjectSearch] = useState<string>('');
+const SearchAllProjects: FunctionComponent = () => {
+  const [projectSearch, setProjectSearch] = useState<string>('')
 
   const resultSearch: CardProjectProps[] = allProjectsInfo.filter(project => project.category.includes(projectSearch.toLowerCase()))
 
@@ -79,7 +94,8 @@ const SearchAllProjects = () => {
             type='text'
             id='search'
             placeholder='Languages, frameworks, libraries, etc...'
-            onChange={e => setProjectSearch(e.target.value)} />
+            onChange={e => setProjectSearch(e.target.value)}
+          />
         </div>
 
       </AnimationContainer>
@@ -91,7 +107,6 @@ const SearchAllProjects = () => {
       </article>
     </>
   )
-
 }
 
-export default SearchAllProjects;
+export default SearchAllProjects
