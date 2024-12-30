@@ -23,7 +23,7 @@ const AboutSection = () => {
           </p>
 
           <p className='text-base text-gray-400'>
-            I also use in web and mobile development Next.js, React.js, React Native and Flutter, to add I also have experience working in Backend with Node and in the UX design part with Figma always implementing good practices in prototyping and coding, clean architecture, SOLID principles, pixel perfect, GitFlow practices and agile methodologies.
+            I also use in web and mobile development Next.js, React.js, TS, React Native and Flutter, to add I also have experience working in Backend with Node and in the UX design part with Figma always implementing good practices in prototyping and coding, clean architecture, SOLID principles, pixel perfect, GitFlow practices and agile methodologies.
           </p>
 
         </AnimationContainer>

@@ -11,7 +11,7 @@ const AboutMe: FunctionComponent = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        {`I am a passionate developer with +${workExperience} years of work experience, specializing in JavaScript, TS, ReactJS, Next.js and Flutter.
+        {`I am a passionate developer with +${workExperience} years of work experience, specializing in JavaScript, ReactJS, TS, Next.js and Flutter.
       Always up for learning and growing to create awesome and complete solutions.`}
       </p>
 
