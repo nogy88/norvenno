@@ -111,7 +111,7 @@ const favProjects = [
   },
   {
     image:
-      'https://www.facebook.com/photo/?fbid=914774666665711&set=a.725800368896476',
+      'https://i.ibb.co/FYN6Fb9/premium.jpg',
     title: 'RMC - Premium concrete',
     category: 'Web',
     appstore: '',
